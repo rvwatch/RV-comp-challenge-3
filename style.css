@@ -3,12 +3,12 @@
 }
 
 body {
-  font-family: helvetica;
-  font-weight: lighter;
-  font-size: 16px;
-  width: 100%;
   background: #343F53;
+  font-family: helvetica;
+  font-size: 16px;
+  font-weight: lighter;
   overflow-x: hidden;
+  width: 100%;
 }
 
 a,
@@ -49,13 +49,12 @@ input:focus {
 
 .fly-out-menu {
   background: #343F53;
-  width: 20%;
-  
+  color: #fff;
   display: inline-flex;
   flex-flow: column;
   height: 100%;
-  color: #fff;
   position: relative;
+  width: 20%;
   z-index: 1;
 }
 
@@ -69,19 +68,19 @@ input:focus {
   background-position: -22px -12px;
   background-size: 150px;
   border-radius: 100%;
-  width: 100px;
+  color: #A5B0C4;
+  display: block;
   height: 100px;
   margin:auto;
-  display: block;
-  color: #A5B0C4;
+  width: 100px;
 }
 
 .profile-section a {
-  margin: 10px auto;
-  width: 122px;
-  display: block;
-  text-decoration: none;
   color: #A5B0C4;
+  display: block;
+  margin: 10px auto;
+  text-decoration: none;
+  width: 122px;
 }
 
 .profile-section a:hover {
@@ -94,18 +93,17 @@ input:focus {
 }
 
 .fly-out-menu h2 {
-  padding: 8px 22px;
   color: #A5B0C4;
+  padding: 8px 22px;
 }
 
 .fly-out-menu nav ul li a {
-  display: block;
-  padding: 8px 20px;
-  font-size: 16px;
-  color: #fff;
-  text-decoration: none;
   border-left: 2px solid #343F53;
   color: #A5B0C4;
+  display: block;
+  font-size: 16px;
+  padding: 8px 20px;
+  text-decoration: none;
 }
 .fly-out-menu nav ul li a:hover {
   background: #2E374A;
@@ -114,26 +112,26 @@ input:focus {
 }
 
 .main-wrap {
-  display: inline-block;
-  vertical-align: top;
-  width: 80.01%;
-  margin-left: -5px;
   background-color: #fff;
   border-left: 1px solid #343F53;
+  display: inline-block;
+  margin-left: -5px;
+  vertical-align: top;
+  width: 80.01%;
 }
 
 ul.search-area {
   border-bottom: 1px solid #999FA2;
-  line-height: 52px;
   display: block;
+  line-height: 52px;
 }
 
 .search-area li {
-  width:60px;
-  text-align: center;
-  display: inline-block;
-  color: #999FA2;
   border-right: 1px solid #999FA2;
+  color: #999FA2;
+  display: inline-block;
+  text-align: center;
+  width:60px;
 }
 
 .search-area li a {
@@ -153,18 +151,18 @@ ul.search-area {
 
 .search-area .search-input {
   border-right: none;
-  width: calc(100% - 247.8px);
-  text-align: left;
-  padding-left: 10px;
   font-size: 20px;
+  padding-left: 10px;
+  text-align: left;
+  width: calc(100% - 247.8px);
 }
 
 .search-area #search {
-  display: inline-block;
-  margin: 0 0 0 5px;
-  font-size: 20px;
   border: none;
+  display: inline-block;
+  font-size: 20px;
   height: 50px;
+  margin: 0 0 0 5px;
   padding: 0 0 0 5px;
   width: calc(100% - 30px);
 }
@@ -195,10 +193,10 @@ ul.search-area {
 }
 
 .job-info-wrap {
-  position: relative;
-  height: 150px;
   display: block;
+  height: 150px;
   padding: 45px 40px 0 45px;
+  position: relative;
 }
 
 .job-info-wrap p a {
@@ -207,8 +205,8 @@ ul.search-area {
 
 .job-info-wrap h2 {
   display: inline-block;
-  margin: 0 0 10px 0;
   font-size: 20px;
+  margin: 0 0 10px 0;
 }
 
 .markers {
@@ -218,11 +216,11 @@ ul.search-area {
 }
 
 .markers li a {
-  border: 1px solid grey;
   border-radius: 100%;
-  padding: 10px;
+  border: 1px solid grey;
   color: #9DA3B1;
   margin-right: 5px;
+  padding: 10px;
   text-decoration: none;
 }
 
@@ -242,9 +240,9 @@ ul.search-area {
 }
 
 .main-nav {
-  position: absolute;
   bottom: 0;
   left: 30px;
+  position: absolute;
 }
 
 .main-nav-drop {
@@ -256,7 +254,7 @@ ul.search-area {
   margin: 0 20px;
 }
 
-.main-nav li a{
+.main-nav li a {
   padding: 0 0 20px 0;
   text-decoration: none;
 }
@@ -266,12 +264,10 @@ ul.search-area {
   border-bottom: 3px solid #00AAFC;
 }
 
-/* -------------CHARTS---------- */
-
 .details-wrap {
   background: #ECF2F6;
-  margin: 24px 0 0 0;
   display: block;
+  margin: 24px 0 0 0;
   padding: 50px; 
 }
 
@@ -282,47 +278,46 @@ ul.search-area {
 
 .circle-graphs {
   display: inline-block;
-  position: relative;
   padding-top: 25px;
+  position: relative;
 }
 
 .bar-graphs {
   display: inline-block;
-  vertical-align: top;
   margin-left: 40px;
+  vertical-align: top;
 }
 
 .circle-container {
-  position: relative;
   display: inline-block;
-  vertical-align: top;
-  text-align: center;
   height: 150px;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
 }
 
 .circle-container h4 {
+  font-size: 40px;
   margin: -105px auto 0 -15px;
   text-align: center;
-  font-size: 40px;
 }
 
 .circle-container h4 span {
   font-size: 16px;
-  top: -15px;
   position: relative;
+  top: -15px;
 }
 
-
 .chart {
-  width: 150px;
-  height: 150px;
-  border: 10px solid #D8E3EC;
   border-radius: 100%;
+  border: 10px solid #D8E3EC;
   display: inline-block;
+  height: 150px;
   margin-right: 20px;
-  vertical-align: top;
-  text-align: center;
   position: relative;
+  text-align: center;
+  vertical-align: top;
+  width: 150px;
 }
 
 .chart.one {
@@ -331,7 +326,6 @@ ul.search-area {
   border-top-color: #00BCC4;
   transform: rotate(-45deg);
 }
-
 
 .chart.two {
   border-left-color: #009DFE;
@@ -367,26 +361,26 @@ ul.search-area {
 }
 
 .hide-show {
-  display: block;
-  width: 100%;
-  text-align: center;
   border-top: 1px solid #999FA2;
+  display: block;
+  margin-top: 50px;
   overflow: visible;
   position: relative;
-  margin-top: 50px;
+  text-align: center;
+  width: 100%;
 }
 
 .hide-show a{
-  border-radius: 100%;
-  color: #999FA2;
-  width: 40px;
-  height: 40px;
-  display: inline-block;
   background-color: #fff;
-  position: absolute;
-  top: -20px;
+  border-radius: 100%;
   border: 1px solid #999FA2;
   box-shadow: 0px 0px 0px 5px rgba(236,242,246,1);
+  color: #999FA2;
+  display: inline-block;
+  height: 40px;
+  position: absolute;
+  top: -20px;
+  width: 40px;
 }
 
 .hide-show .fa {
@@ -396,11 +390,11 @@ ul.search-area {
 }
 
 .job-description {
-  width: 60%;
+  background-color: #fff;
   display: inline-block;
   margin-right: 30px;
-  background-color: #fff;
   min-width: 560px;
+  width: 60%;
 }
 
 .job-description header {
@@ -420,8 +414,8 @@ ul.search-area {
   border: none;
   color: #fff;
   font-size: 16px;
-  padding: 8px 10px;
   margin: 0 0 0 40px;
+  padding: 8px 10px;
 }
 
 .job-description ul {
@@ -439,10 +433,10 @@ ul.search-area {
 }
 
 .job-description .description-list h3 {
-  width: 185px;
-  vertical-align: top;
-  text-transform: uppercase;
   margin-bottom: 10px;
+  text-transform: uppercase;
+  vertical-align: top;
+  width: 185px;
 }
 
 .job-description .description-list p {
@@ -451,27 +445,27 @@ ul.search-area {
 
 .job-description .description-list p img {
   border-radius: 100%;
-  width: 30px;
   height: 30px;
+  width: 30px;
 }
 
 .social {
- display: inline-block;
- width: 35%;
- vertical-align: top;
  color:#67717C;
+ display: inline-block;
+ vertical-align: top;
+ width: 35%;
 }
 
 .social button {
-  display: block;
-  padding: 15px;
+  border-radius: 5px;
   border: none;
   color: #fff;
+  display: block;
   font-size: 16px;
-  width: 100%;
-  border-radius: 5px;
-  text-align: left;
   margin: 0 0 15px 0;
+  padding: 15px;
+  text-align: left;
+  width: 100%;
 }
 
 .social button i {
@@ -492,8 +486,8 @@ ul.search-area {
 
 .social article {
   border-bottom: 1px solid grey;
-  padding-bottom: 20px;
   margin-top: 30px;
+  padding-bottom: 20px;
 }
 
 .social h3 {
@@ -502,62 +496,60 @@ ul.search-area {
 }
 
 .social p {
-  line-height: 20px;
   font-size: 14px;
+  line-height: 20px;
   margin: 0 0 10px 0;
 }
 
 .social .link-wrap {
-  position: relative;
+  background: #fff;
+  border-radius: 5px;
   display: block;
   height: 40px;
-  border-radius: 5px;
-  background: #fff;
+  position: relative;
 }
 
 .social .link-wrap button {
-  position: absolute;
-  right: 0;
-  width: 70px;
+  background: #00BFBF;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
   height: 40px;
   padding: 0;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+  position: absolute;
+  right: 0;
   text-align: center;
-  background: #00BFBF;
+  width: 70px;
 }
 
 .social .link-wrap a {
-  position: absolute;
-  top: 12px;
-  left: 15px;
-  font-size: 14px;
-  width: 250px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
   color:#67717C;
+  font-size: 14px;
+  left: 15px;
+  overflow: hidden;
+  position: absolute;
+  text-overflow: ellipsis;
+  top: 12px;
+  white-space: nowrap;
+  width: 250px;
 }
 
 .social .upload-resume {
   border-bottom: none;
 }
 
-
 @media only screen and (max-width: 1285px) {
   
   .job-description {
-    width: 60%;
+    background-color: #fff;
     display: inline-block;
     margin-right: 10px;
-    background-color: #fff;
     min-width: 560px;
+    width: 60%;
   }
 
    .bar-graphs {
     margin-left: 10px;
   }
-
 }
 
 @media only screen and (max-width: 1247px) {
@@ -566,11 +558,11 @@ ul.search-area {
   }
 
   .job-description {
-    width: 80%;
+    background-color: #fff;
     display: block;
     margin: auto;
-    background-color: #fff;
     min-width: 560px;
+    width: 80%;
   }
 
   .job-description .description-list p {
@@ -578,22 +570,21 @@ ul.search-area {
   }
 
   .social {
-    display: block;
-    width: 35%;
-    vertical-align: top;
     color: #67717C;
+    display: block;
     margin: 50px auto;
     min-width: 330px;
+    vertical-align: top;
+    width: 35%;
   }
-
 }
 
 @media only screen and (max-width: 1230px) {
 
   .circle-graphs {
     display: block;
-    width: 525px;
     margin: auto;
+    width: 525px;
   }
 
   .charts-wrap .applicants-btn, .charts-wrap .totals-btn {
@@ -606,23 +597,23 @@ ul.search-area {
     margin: 80px auto;
     width: 350px;
   }
-
 }
 
 @media only screen and (max-width: 1070px) {
+
   .main-nav {
     position: relative;
     left: auto;
   }
 
   .main-nav-drop {
-    display: block;
-    position: relative;
     bottom: -15px;
-    left: 15px;
+    display: block;
     font-size: 40px;
-    width: 50px;
+    left: 15px;
     margin: 20px auto;
+    position: relative;
+    width: 50px;
   }
 
   a.main-nav-drop .fa{
@@ -643,28 +634,27 @@ ul.search-area {
   .main-wrap {
     width: calc(100% - 199.8px);
   }
-
 }
 
 @media only screen and (max-width: 890px) {
   
   .job-info-wrap h2 {
     display: block;
+    font-size: 20px;
     margin: 30px auto 5px auto;
     width: 350px;
-    font-size: 20px;
   }
 
   .job-info-wrap p {
-    width: 350px;
     margin: auto;
+    width: 350px;
   }
 
   .markers {
+    left: 23%;
     position: absolute;
     right: auto;
     top: 25px;
-    left: 23%;
   }
 
   .job-description .description-list p {
@@ -672,13 +662,13 @@ ul.search-area {
   }
 
   .main-nav-drop {
-    display: block;
-    position: relative;
     bottom: -15px;
-    left: 15px;
+    display: block;
     font-size: 40px;
-    width: 50px;
+    left: 15px;
     margin: auto;
+    position: relative;
+    width: 50px;
   }
 
   .job-description .description-list h3 {
@@ -688,38 +678,37 @@ ul.search-area {
    .job-description {
     min-width: auto;
   }
-
 }
 
 @media only screen and (max-width: 780px) { 
 
   .charts-wrap {
-    position: relative;
     margin-bottom: 80px;
-    width: 200px;
     margin: auto;
+    position: relative;
+    width: 200px;
   }
 
   .circle-graphs {
     display: block;
-    width: 200px;
     margin: -60px auto 0 auto;
+    width: 200px;
   }
 
   .circle-container {
-      display: block;
-      margin: 20px;
-      height: 150px;
+    display: block;
+    height: 150px;
+    margin: 20px;
   }
 
   .charts-wrap img {
     height: 270px;
-    margin-top: -30px;
     margin-left: -70px;
+    margin-top: -30px;
   }
 
   .charts-wrap .applicants-btn {
-     margin: 20px auto auto 25px;
+    margin: 20px auto auto 25px;
   }
 
   .hide-show {
@@ -734,7 +723,6 @@ ul.search-area {
   .job-description header button {
     margin: 10px auto;
   }
-
 }
 
 @media only screen and (max-width: 650px) { 
@@ -780,10 +768,9 @@ ul.search-area {
   }
 
   .social {
-    width: 100%;
     min-width: auto;
+    width: 100%;
   }
-
 }
 
 
