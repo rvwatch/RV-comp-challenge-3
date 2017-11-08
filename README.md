@@ -6,3 +6,8 @@ This project was definitely more intense than I expected. I tried to keep things
 
 
 
+![original comp](images/static-comp-challenge-3.jpg?raw=true)
+![My comp](images/StaticComp3.png?raw=true)
+
+
+
